@@ -10,6 +10,9 @@ li.nav-item {
   background-color: black;
   border-radius: 10px;
 }
+li.nav-item.active {
+  border-radius: 10px;
+}
 .container {
   max-width: 1080px;
 }
@@ -22,4 +25,21 @@ img.card-img-top {
   padding: 0px;
   background-size: cover;
   background-position: center;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+i:hover {
+  color: #aec6cf;
+  transition: 0.4s;
+  cursor: pointer;
 }
