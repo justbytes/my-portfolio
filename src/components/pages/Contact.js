@@ -34,7 +34,7 @@ export default function Contact() {
           </div>
           <div className="form-group">
             <label htmlFor="exampleFormControlTextarea1">
-              Example textarea
+              Write a brief message
             </label>
             <textarea
               className="form-control"
@@ -43,7 +43,7 @@ export default function Contact() {
             ></textarea>
           </div>
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-dark">
           Submit
         </button>
       </form>

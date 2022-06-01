@@ -6,9 +6,8 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("AboutMe");
 
-  // TODO: Add a comment describing the functionality of this function
   const renderPage = () => {
     switch (currentPage) {
       case "Resume":

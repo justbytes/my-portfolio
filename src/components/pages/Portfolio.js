@@ -1,4 +1,3 @@
-import "../port.css";
 import React from "react";
 import calculatorPic from "../../img/calculator.jpeg";
 import textPic from "../../img/texteditor.png";
@@ -13,7 +12,7 @@ export default function Portfolio() {
         <h2>Portfolio</h2>
       </div>
 
-      <section style={{ display: "flex" }}>
+      <section style={{ display: "flex", flexWrap: "wrap" }}>
         <div className="card" style={{ width: "18rem" }}>
           <img src={cryptoPic} className="card-img-top" alt="crypto-page" />
           <div className="card-body">
@@ -24,7 +23,7 @@ export default function Portfolio() {
             </p>
             <a
               href="https://guarded-scrubland-93446.herokuapp.com"
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               To Cyrpto Punx!
             </a>
@@ -38,7 +37,7 @@ export default function Portfolio() {
             <p className="card-text">Wanna find a golf course near you?</p>
             <a
               href="https://nirav-v.github.io/golfapedia/"
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               Get Golfin!
             </a>
@@ -56,7 +55,7 @@ export default function Portfolio() {
             <p className="card-text">Suck at making secure passwords?</p>
             <a
               href="https://jessemarino.github.io/the_super_generator/"
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               Password!
             </a>
@@ -70,7 +69,7 @@ export default function Portfolio() {
             <p className="card-text">Try out this text editor!</p>
             <a
               href="https://infinite-headland-27852.herokuapp.com/"
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               Edit Text
             </a>
@@ -86,7 +85,7 @@ export default function Portfolio() {
             </p>
             <a
               href="https://www.omnicalculator.com/physics/helmholtz-resonator"
-              className="btn btn-primary"
+              className="btn btn-dark"
             >
               Lets calculate
             </a>
