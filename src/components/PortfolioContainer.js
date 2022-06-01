@@ -11,14 +11,14 @@ export default function PortfolioContainer() {
   // TODO: Add a comment describing the functionality of this function
   const renderPage = () => {
     switch (currentPage) {
-      case "AboutMe":
-        return <AboutMe />;
+      case "Resume":
+        return <Resume />;
       case "Portfolio":
         return <Portfolio />;
       case "Contact":
         return <Contact />;
       default:
-        return <Resume />;
+        return <AboutMe />;
     }
   };
 
