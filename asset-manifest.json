@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ddeba5b6.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.88e7851a.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.88e7851a.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.649f0d63.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.b0298cce.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.b0298cce.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.c699713e.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.c699713e.js.map",
     "static/css/2.0a9ec390.chunk.css": "/my-portfolio/static/css/2.0a9ec390.chunk.css",
@@ -10,19 +10,21 @@
     "static/js/2.755993c4.chunk.js.map": "/my-portfolio/static/js/2.755993c4.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/my-portfolio/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.ddeba5b6.chunk.css.map": "/my-portfolio/static/css/main.ddeba5b6.chunk.css.map",
+    "static/css/main.649f0d63.chunk.css.map": "/my-portfolio/static/css/main.649f0d63.chunk.css.map",
     "static/js/2.755993c4.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.755993c4.chunk.js.LICENSE.txt",
     "static/media/1.1745a741.png": "/my-portfolio/static/media/1.1745a741.png",
-    "static/media/calculator.75e6207a.jpeg": "/my-portfolio/static/media/calculator.75e6207a.jpeg",
+    "static/media/calander.636d7078.png": "/my-portfolio/static/media/calander.636d7078.png",
     "static/media/cryptopunx.a29eb4d9.png": "/my-portfolio/static/media/cryptopunx.a29eb4d9.png",
+    "static/media/doYouCode.a11a4e78.png": "/my-portfolio/static/media/doYouCode.a11a4e78.png",
     "static/media/golfapedia.1bd40a56.png": "/my-portfolio/static/media/golfapedia.1bd40a56.png",
-    "static/media/texteditor.80051a89.png": "/my-portfolio/static/media/texteditor.80051a89.png"
+    "static/media/note.663d519f.png": "/my-portfolio/static/media/note.663d519f.png",
+    "static/media/quicktext.8e039f62.png": "/my-portfolio/static/media/quicktext.8e039f62.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c699713e.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.755993c4.chunk.js",
-    "static/css/main.ddeba5b6.chunk.css",
-    "static/js/main.88e7851a.chunk.js"
+    "static/css/main.649f0d63.chunk.css",
+    "static/js/main.b0298cce.chunk.js"
   ]
 }
