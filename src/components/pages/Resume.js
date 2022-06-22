@@ -3,16 +3,10 @@ import React from "react";
 export default function Resume() {
   return (
     <>
-      <div>
+      <div className="title">
         <h1>Resume</h1>
-        <p>
-          Download my Resume{" "}
-          <a href="https://docs.google.com/document/d/1AqBVtRPNnAkyK1Fe3gLh437tizIAt2GhSdUeCncXYe8/edit?usp=sharing">
-            here
-          </a>
-        </p>
       </div>
-      <div>
+      <div className="experiance">
         <h3>Front-end Experience</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">HTML</li>
@@ -24,7 +18,7 @@ export default function Resume() {
           <li className="list-group-item">Bootstrap</li>
         </ul>
       </div>
-      <div>
+      <div className="experiance">
         <h3>Back-end Experience</h3>
         <ul className="list-group list-group-flush">
           <li className="list-group-item">API's</li>
@@ -35,6 +29,17 @@ export default function Resume() {
           <li className="list-group-item">REST</li>
           <li className="list-group-item">GraphQL</li>
         </ul>
+      </div>
+      <div>
+        <p className="downloadBtn">
+          Check out my resume{" "}
+          <a
+            className=" hereBtn "
+            href="https://docs.google.com/document/d/1w0Nya0FHduT7-40S3ErNH__OinIfZWVBmk2ROb7MzSM/edit?usp=sharing"
+          >
+            here
+          </a>
+        </p>
       </div>
     </>
   );

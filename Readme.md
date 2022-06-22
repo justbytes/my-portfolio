@@ -4,7 +4,7 @@
 
 ## Description
 
-My motivation for this project was to rebuild my old portfolio to something new! I built this app to test my skills with React. I think this solves app solves my problem by giving me a portfolio that looks more originized and a better foundation than the previous.After briefly working on this app I feel like it gave me a better understanding of styling a webpage with React.
+My motivation for this project was to test my skills with React to create a portfolio. In this app you you can navigate through the About Me, Portfolio, Contact, and Resume tabs to see each page. Currently the contact form does not work and is acting as a place holder for the momment.
 
 ## Table of Contents
 
@@ -14,26 +14,24 @@ My motivation for this project was to rebuild my old portfolio to something new!
 
 ### Installation
 
-To install necessary dependencies, run the following command
+To install necessary dependencies, run the following command:
 
 ```md
+npm init -y
 npm i
-npm run build
-npm start
 ```
 
 ### Usage
 
-Navigate using the tabs on the NavBar!
+To run this app input the following commands or click the link at the bottom of this readme.
 
-### Contrnode ibuting
-
-If you would like to help please fork the repo and subm
-
-### Tests
-
-To run tests, run the following command:
+```md
+npm run build
+npm start
+```
 
 ### Questions
 
-If you have any questions contact me through Github, my username is jessemarino.
+If you have any questions please reach out via Github, my username is jessemarino.
+
+URL to webpage: https://jessemarino.github.io/my-portfolio/

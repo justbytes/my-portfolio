@@ -3,11 +3,11 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div>
-        <h2>Contact Me!</h2>
+      <div className="title">
+        <h1>Contact Me</h1>
       </div>
 
-      <form>
+      <form className="form">
         <div className="row">
           <div className="col">
             <input

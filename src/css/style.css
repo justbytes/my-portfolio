@@ -1,23 +1,66 @@
 * {
-  background-color: linear-gradient(to right, #a2a2a2, #5d5d5d);
   margin: 3px;
   font-family: "Roboto Mono", monospace;
+  font-size: large;
 }
+#page {
+  background-color: #473d00a2;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.display-4 {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.685);
+}
+
+.lead {
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.685);
+}
+
+.title {
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+.title h1 {
+  font-weight: bolder;
+}
+
+ul.nav.nav-tabs.nav-justified {
+  border-bottom: 2px solid #473d00;
+}
+
 a.nav-link {
-  color: white;
+  background-color: #473d0044 !important;
+  color: rgba(255, 255, 255, 0.685);
+  font-size: 24px;
+  border-bottom: solid #473d0044 !important;
 }
-li.nav-item {
-  background-color: black;
-  border-radius: 10px;
+a.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.685) !important;
 }
-li.nav-item.active {
-  border-radius: 10px;
+
+a.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.685) !important;
+  color: black;
 }
+
 .container {
   max-width: 1080px;
 }
+
 div.jumbotron {
-  border: 3px, black;
+  border-bottom: solid 2px;
+}
+
+.aboutWords {
+  background-color: #473d0044;
+
+  border-radius: 4px;
+  padding: 20px;
+  line-height: 2;
+  font-size: large;
+  box-shadow: 4px 3px #473d005b;
 }
 
 img.card-img-top {
@@ -25,7 +68,52 @@ img.card-img-top {
   padding: 0px;
   background-size: cover;
   background-position: center;
+  height: 200px;
 }
+
+.card {
+  background-color: #473d0023 !important;
+  color: rgba(255, 255, 255, 0.685);
+  margin: 10px;
+  box-shadow: inset;
+  box-shadow: 4px 4px #473d005b;
+}
+
+.card-title {
+  font-size: 36px;
+  font-weight: bolder;
+  border-bottom: solid rgba(255, 255, 255, 0.685);
+}
+
+li.list-group-item {
+  background-color: #473d0023 !important;
+  color: rgba(255, 255, 255, 0.685);
+}
+
+.form {
+  margin: 5px;
+  padding: 5px;
+}
+
+.experiance {
+  padding: 5px;
+  margin: 10px;
+}
+
+.experiance h3 {
+  border-bottom: solid white;
+  padding: 2px;
+}
+
+.downloadBtn {
+  font-size: 24px;
+}
+
+.hereBtn {
+  color: rgba(255, 255, 255, 0.685);
+  font-size: 24px;
+}
+
 .footer {
   left: 0;
   bottom: 0;
@@ -36,10 +124,4 @@ img.card-img-top {
   padding-bottom: 25px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-i:hover {
-  color: #aec6cf;
-  transition: 0.4s;
-  cursor: pointer;
 }
