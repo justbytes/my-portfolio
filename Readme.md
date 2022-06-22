@@ -34,4 +34,8 @@ npm start
 
 If you have any questions please reach out via Github, my username is jessemarino.
 
+![screenshots](./src/img/d1.png)
+![screenshots](./src/img/d2.png)
+![screenshots](./src/img/d3.png)
+
 URL to webpage: https://jessemarino.github.io/my-portfolio/
