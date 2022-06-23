@@ -8,17 +8,17 @@ export default function AboutMe() {
       </div>
       <div>
         <p className="aboutWords">
-          Previously I was a calibration and repair technician with over five
-          years of experiance in the Metrology field. While working as a
-          calibration technincian I was introduced to Python which I used to
-          write automated testing procedures for Rohde and Schwarz, Keysight,
-          Tektronix, LeCroy, Kiethley, and National Instruments precision test
-          equipment. <br />
-          As my intrest in Python grew I became more curious in other
-          technologies. I decided to change career paths and get into the web
-          development world by attending UCSD's Coding BootCamp. I graduated
-          June of 2022 and have gained the nessessary skills to become a Full
-          Stack Web Developer.
+          New to the coding world! I have recently graduated from UCSD's Coding
+          Bootcamp as of June 2022! I love to solve problems and create new
+          things which is why I decided to get into Web Development. Previously
+          I was in the Metrology field working as a Calibration and Repair
+          Technician for over five years. <br />
+          While working for my last employer I was exposed to Python. We used
+          Python to create automated testing procedures for Rohde and Schwarz,
+          Keysight, Tektronix, LeCroy, Kiethley, and National Instruments
+          precision test equipment. This is were my interests in coding began!
+          Since then I have learned so many new skills and I am beyond excited
+          to learn even more and grow as a Full Stack Web Developer.
         </p>
       </div>
     </>
