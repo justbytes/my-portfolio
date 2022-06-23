@@ -1,6 +1,8 @@
 import React from "react";
+import { useAlert } from "react-alert";
 
 export default function Contact() {
+  const alert = useAlert();
   return (
     <>
       <div className="title">
@@ -43,7 +45,17 @@ export default function Contact() {
             ></textarea>
           </div>
         </div>
-        <button type="submit" className="btn btn-dark">
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+
+            alert.show(
+              "This form currently doesn't work. If you would like to reach out please email me at jesswritincode@gmail.com. You can also find my contact info on my Github!"
+            );
+          }}
+          type="submit"
+          className="btn btn-dark"
+        >
           Submit
         </button>
       </form>

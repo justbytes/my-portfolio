@@ -125,3 +125,9 @@ li.list-group-item {
   padding-left: 10px;
   padding-right: 10px;
 }
+div#__react-alert__ div div div {
+  width: 80% !important;
+  background-color: #473d00de !important;
+  color: rgba(255, 255, 255, 0.685) !important;
+  text-transform: none !important;
+}
