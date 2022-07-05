@@ -6,6 +6,17 @@ export default function Resume() {
       <div className="title">
         <h1>Resume</h1>
       </div>
+      <div>
+        <p className="downloadBtn">
+          Check out my resume{" "}
+          <a
+            className=" hereBtn "
+            href="https://docs.google.com/document/d/1n61BZrdFGnxRdFJ4lB1AEayd6OTRZ_5wKblu7OgoK-4/edit?usp=sharing"
+          >
+            here
+          </a>
+        </p>
+      </div>
       <div className="experiance">
         <h3>Front-end Experience</h3>
         <ul className="list-group list-group-flush">
@@ -29,17 +40,6 @@ export default function Resume() {
           <li className="list-group-item">REST</li>
           <li className="list-group-item">GraphQL</li>
         </ul>
-      </div>
-      <div>
-        <p className="downloadBtn">
-          Check out my resume{" "}
-          <a
-            className=" hereBtn "
-            href="https://docs.google.com/document/d/1w0Nya0FHduT7-40S3ErNH__OinIfZWVBmk2ROb7MzSM/edit?usp=sharing"
-          >
-            here
-          </a>
-        </p>
       </div>
     </>
   );
