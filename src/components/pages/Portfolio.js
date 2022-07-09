@@ -37,8 +37,8 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Crypto PunX</h5>
             <p className="card-text">
-              Check out Crypto Punx! This app is for users that are new to
-              investing and are trying to get into the crypto world.
+              This app is for users that are new to investing and are trying to
+              get into the crypto world.
             </p>
             <a
               href="https://guarded-scrubland-93446.herokuapp.com"
@@ -106,7 +106,7 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title">Daily Scheduler</h5>
             <p className="card-text">
-              This is a Daily Scheduling app that has color coordinators for the
+              This is a Daily Scheduler that has color coordinators for the
               hour. Grey means the hour has past, red means that is the current
               hour, and green meaning that hour is to come.
             </p>
