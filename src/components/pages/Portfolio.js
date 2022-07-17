@@ -6,6 +6,10 @@ import cryptoPic from "../../img/cryptopunx.png";
 import PassGenPic from "../../img/1.png";
 import note from "../../img/note.png";
 import calander from "../../img/calander.png";
+import roleMaster from "../../img/rolemaster.png";
+import myTeam from "../../img/myteam.png";
+import techNews from "../../img/dashboardinit.png";
+import badgeMaker from "../../img/badgemaker.png";
 
 export default function Portfolio() {
   return (
@@ -25,6 +29,75 @@ export default function Portfolio() {
             </p>
             <a
               href="https://jessemarino.github.io/do-you-even-code/"
+              className="btn btn-dark"
+            >
+              Check it out!
+            </a>
+          </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={roleMaster} className="card-img-top" alt="roleMaster" />
+          <div className="card-body">
+            <h5 className="card-title">Role Master</h5>
+            <p className="card-text">
+              An app for users that need an employee management system.
+            </p>
+            <a
+              href="https://github.com/jessemarino/role_master"
+              className="btn btn-dark"
+            >
+              Check it out!
+            </a>
+          </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={techNews} className="card-img-top" alt="myTeam" />
+          <div className="card-body">
+            <h5 className="card-title">Just Tech News</h5>
+            <p className="card-text">
+              Just Tech News is a form for users to share new tech they have
+              discovered.
+            </p>
+            <a
+              href="https://news-feed-with-python.herokuapp.com/"
+              className="btn btn-dark"
+            >
+              Check it out!
+            </a>
+          </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={myTeam} className="card-img-top" alt="myTeam" />
+          <div className="card-body">
+            <h5 className="card-title">My Team</h5>
+            <p className="card-text">
+              An app for users that need an want to create employee cards. This
+              app takes in employee info via CLI and then writes it to a HTML
+              file.
+            </p>
+            <a
+              href="https://github.com/jessemarino/write_em_down"
+              className="btn btn-dark"
+            >
+              Check it out!
+            </a>
+          </div>
+        </div>
+
+        <div className="card" style={{ width: "18rem" }}>
+          <img src={badgeMaker} className="card-img-top" alt="myTeam" />
+          <div className="card-body">
+            <h5 className="card-title">CatWorx BadgeMaker</h5>
+            <p className="card-text">
+              CatWorx badgeMaker is for users that need to create badges for
+              their employees. Users can enter employee info via CLI or update
+              the CSV file and generate them all at once.
+            </p>
+            <a
+              href="https://github.com/jessemarino/CatWorx.BadgeMaker"
               className="btn btn-dark"
             >
               Check it out!
