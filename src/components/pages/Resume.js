@@ -7,10 +7,10 @@ export default function Resume() {
         <h1>Resume</h1>
       </div>
       <div>
-        <p className="downloadBtn">
+        <p className="resumeLink">
           Check out my resume{" "}
           <a
-            className=" hereBtn "
+            className=" resumeBtn "
             href="https://docs.google.com/document/d/1ki0fy7lJ4juBCj_bsyAaquQ3ztkHmfZatLyG0zVQWJY/edit?usp=sharing"
           >
             here

@@ -1,35 +1,32 @@
 * {
-  margin: 3px;
+  margin: 0px;
   font-family: "Roboto Mono", monospace;
   font-size: large;
 }
+
 #page {
   background-color: #473d00a2;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.685);
 }
 
+/* Header styling */
+div.container {
+  max-width: 1080px;
+  margin-left: 0px;
+}
+div.jumbotron {
+  border-bottom: solid 2px;
+}
 .display-4 {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.685);
 }
+/* End of Header styling */
 
-.lead {
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.685);
-}
-
-.title {
-  margin: 5px;
-  margin-bottom: 15px;
-}
-
-.title h1 {
-  font-weight: bolder;
-}
-
+/* NavTabs Styling */
 ul.nav.nav-tabs.nav-justified {
   border-bottom: 2px solid #473d00;
 }
-
 a.nav-link {
   background-color: #473d0044 !important;
   color: rgba(255, 255, 255, 0.685);
@@ -39,31 +36,31 @@ a.nav-link {
 a.nav-link.active {
   background-color: rgba(255, 255, 255, 0.685) !important;
 }
-
 a.nav-link:hover {
   background-color: rgba(255, 255, 255, 0.685) !important;
   color: black;
 }
+/* End of NavTabs Styling */
 
-div.container {
-  max-width: 1080px;
-  margin-left: 0px;
+/* About Me Page Styling */
+.aboutMe {
+  margin: 5px;
+  margin-bottom: 15px;
 }
-
-div.jumbotron {
-  border-bottom: solid 2px;
+.aboutMe h1 {
+  font-weight: bolder;
 }
-
-.aboutWords {
+.aboutMeDescription {
   background-color: #473d0044;
-
   border-radius: 4px;
   padding: 20px;
   line-height: 2;
   font-size: large;
   box-shadow: 4px 3px #473d005b;
 }
+/* End of AboutMe Page Styling */
 
+/* Portfolio Page Styling */
 img.card-img-top {
   margin: 0;
   padding: 0px;
@@ -71,7 +68,6 @@ img.card-img-top {
   background-position: center;
   height: 200px;
 }
-
 .card {
   background-color: #473d0023 !important;
   color: rgba(255, 255, 255, 0.685);
@@ -79,42 +75,49 @@ img.card-img-top {
   box-shadow: inset;
   box-shadow: 4px 4px #473d005b;
 }
-
 .card-title {
   font-size: 36px;
   font-weight: bolder;
   border-bottom: solid rgba(255, 255, 255, 0.685);
 }
+/* End of Portfolio Page Styling */
 
-li.list-group-item {
-  background-color: #473d0023 !important;
-  color: rgba(255, 255, 255, 0.685);
-}
-
+/* Contact Page Styling */
 .form {
   margin: 5px;
   padding: 5px;
 }
+div#__react-alert__ div div div {
+  width: 80% !important;
+  background-color: #473d00de !important;
+  color: rgba(255, 255, 255, 0.685) !important;
+  text-transform: none !important;
+}
+/* End of Contact Page Styling */
 
+/* Resume Page Styling */
+li.list-group-item {
+  background-color: #473d0023 !important;
+  color: rgba(255, 255, 255, 0.685);
+}
 .experiance {
   padding: 5px;
   margin: 10px;
 }
-
 .experiance h3 {
   border-bottom: solid white;
   padding: 2px;
 }
-
-.downloadBtn {
+.resumeLink {
   font-size: 24px;
 }
-
-.hereBtn {
+.resumeBtn {
   color: rgba(255, 255, 255, 0.685);
   font-size: 24px;
 }
+/* End of Resume Page Styling */
 
+/* Footer Styling */
 .footer {
   left: 0;
   bottom: 0;
@@ -126,9 +129,4 @@ li.list-group-item {
   padding-left: 10px;
   padding-right: 10px;
 }
-div#__react-alert__ div div div {
-  width: 80% !important;
-  background-color: #473d00de !important;
-  color: rgba(255, 255, 255, 0.685) !important;
-  text-transform: none !important;
-}
+/* End of Footer Styling */

@@ -1,14 +1,13 @@
 import React from "react";
 import doYouCode from "../../img/doYouCode.png";
 import textPic from "../../img/quicktext.png";
-import golfPic from "../../img/golfapedia.png";
 import cryptoPic from "../../img/cryptopunx.png";
-import PassGenPic from "../../img/1.png";
+import passwordGenerator from "../../img/passwordGenerator.png";
 import note from "../../img/note.png";
 import calander from "../../img/calander.png";
 import roleMaster from "../../img/rolemaster.png";
 import myTeam from "../../img/myteam.png";
-import techNews from "../../img/dashboardinit.png";
+import pythonTechNews from "../../img/pythonTechNews.png";
 import badgeMaker from "../../img/badgemaker.png";
 
 export default function Portfolio() {
@@ -53,7 +52,7 @@ export default function Portfolio() {
         </div>
 
         <div className="card" style={{ width: "18rem" }}>
-          <img src={techNews} className="card-img-top" alt="myTeam" />
+          <img src={pythonTechNews} className="card-img-top" alt="myTeam" />
           <div className="card-body">
             <h5 className="card-title">Just Tech News</h5>
             <p className="card-text">
@@ -152,7 +151,7 @@ export default function Portfolio() {
 
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src={PassGenPic}
+            src={passwordGenerator}
             className="card-img-top"
             alt="passwordGenerator"
           />

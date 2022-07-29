@@ -3,11 +3,11 @@ import React from "react";
 export default function AboutMe() {
   return (
     <>
-      <div className="title">
+      <div className="aboutMe">
         <h1>About Me</h1>
       </div>
       <div>
-        <p className="aboutWords">
+        <p className="aboutMeDescription">
           New to the coding world and recent graduate of UCSD's Coding Bootcamp:
           I love challenges, problem solving, making new ideas come to life, and
           thinking outside the box. My interests in coding first started when I
