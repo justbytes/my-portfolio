@@ -5,9 +5,7 @@ export default function Contact() {
   const alert = useAlert();
   return (
     <>
-      <div className="title">
-        <h1>Contact Me</h1>
-      </div>
+      <div className="title"></div>
 
       <form className="form">
         <div className="row">

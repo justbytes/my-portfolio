@@ -13,9 +13,7 @@ import badgeMaker from "../../img/badgemaker.png";
 export default function Portfolio() {
   return (
     <>
-      <div className="title">
-        <h1>Portfolio</h1>
-      </div>
+      <div className="title"></div>
 
       <section style={{ display: "flex", flexWrap: "wrap" }}>
         <div className="card" style={{ width: "18rem" }}>

@@ -3,9 +3,7 @@ import React from "react";
 export default function Resume() {
   return (
     <>
-      <div className="title">
-        <h1>Resume</h1>
-      </div>
+      <div className="title"></div>
       <div>
         <p className="resumeLink">
           Check out my resume{" "}

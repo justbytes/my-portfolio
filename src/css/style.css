@@ -4,13 +4,20 @@
   font-size: large;
 }
 
-#page {
-  background-color: #473d00a2;
+.main {
+  background-color: #bed4c6;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.685);
+  color: #bed4c6;
+  background-image: url(../img/aboutMe.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* Header styling */
+.header {
+}
+
 div.container {
   max-width: 1080px;
   margin-left: 0px;
@@ -18,23 +25,25 @@ div.container {
 div.jumbotron {
   border-bottom: solid 2px;
 }
-.display-4 {
+.jumbotronName {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.685);
 }
 /* End of Header styling */
 
 /* NavTabs Styling */
 ul.nav.nav-tabs.nav-justified {
-  border-bottom: 2px solid #473d00;
+  border-bottom: 2px solid #f9f4f0;
 }
 a.nav-link {
-  background-color: #473d0044 !important;
-  color: rgba(255, 255, 255, 0.685);
+  background-color: #dadbc7 !important;
+  color: black;
   font-size: 24px;
-  border-bottom: solid #473d0044 !important;
+  border-bottom: solid #bed5c6 !important;
+  width: 99% !important;
+  margin: 5px;
 }
 a.nav-link.active {
-  background-color: rgba(255, 255, 255, 0.685) !important;
+  background-color: #eee9e3 !important;
 }
 a.nav-link:hover {
   background-color: rgba(255, 255, 255, 0.685) !important;
@@ -51,12 +60,13 @@ a.nav-link:hover {
   font-weight: bolder;
 }
 .aboutMeDescription {
-  background-color: #473d0044;
+  background-color: #473d0028;
   border-radius: 4px;
   padding: 20px;
   line-height: 2;
   font-size: large;
   box-shadow: 4px 3px #473d005b;
+  margin-top: 3%;
 }
 /* End of AboutMe Page Styling */
 
