@@ -62,10 +62,15 @@ a.nav-link:hover {
 .aboutMe {
   margin: 5px;
   margin-bottom: 15px;
+  padding: 5px;
 }
-.aboutMe h1 {
-  font-weight: bolder;
+
+.aboutMeName {
+  font-family: "Roboto Slab", serif;
+  font-size: 32px;
+  border-bottom: 1px solid;
 }
+
 .aboutMeDescription {
   background-color: #473d0023;
   border-radius: 4px;
@@ -73,8 +78,10 @@ a.nav-link:hover {
   line-height: 2;
   font-size: large;
   box-shadow: 4px 3px #473d005b;
-  margin-top: 3%;
+  margin-top: 10px;
+  width: 100%;
 }
+
 /* End of AboutMe Page Styling */
 
 /* Portfolio Page Styling */
@@ -144,6 +151,15 @@ img.card-img-top-port {
 /* End of Contact Page Styling */
 
 /* Resume Page Styling */
+.resume {
+  background-color: #473d0023;
+  margin: 10px;
+  padding: 5px;
+}
+.resume p {
+  font-size: 24px;
+}
+
 li.list-group-item {
   background-color: #473d0023 !important;
   color: #dadbc7;

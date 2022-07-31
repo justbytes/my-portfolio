@@ -4,14 +4,14 @@ export default function Resume() {
   return (
     <>
       <div className="title"></div>
-      <div>
+      <div className="resume">
         <p className="resumeLink">
-          Check out my resume{" "}
+          Check out my resume {""}
           <a
             className=" resumeBtn "
-            href="https://docs.google.com/document/d/1ki0fy7lJ4juBCj_bsyAaquQ3ztkHmfZatLyG0zVQWJY/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1xToHHpqT6BF5BvOERihdtQU6KI-VteiDJcCR3LWUrFE/edit?usp=sharing"
           >
-            here
+            here.
           </a>
         </p>
       </div>

@@ -20,8 +20,8 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title-port">Code Quiz</h5>
             <p className="card-text">
-              This app is for users that want to test their knowledge on some
-              basic coding questions.
+              A timed multiple choice coding quiz with basic coding questions.
+              (JavaScript)
             </p>
             <a
               href="https://jessemarino.github.io/do-you-even-code/"
@@ -41,7 +41,8 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title-port">Role Master</h5>
             <p className="card-text">
-              An app for users that need an employee management system.
+              Content management system(CMS) built to manage a company’s
+              employee database (JavaScript)
             </p>
             <a
               href="https://github.com/jessemarino/role_master"
@@ -61,8 +62,9 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title-port">Just Tech News</h5>
             <p className="card-text">
-              Just Tech News is a form for users to share new tech they have
-              discovered.
+              A social media form to share, discuss, and discover new
+              techologies. After creating an account users can post, comment and
+              up vote. (Python)
             </p>
             <a
               href="https://news-feed-with-python.herokuapp.com/"
@@ -78,9 +80,9 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title-port">My Team</h5>
             <p className="card-text">
-              An app for users that need an want to create employee cards. This
-              app takes in employee info via CLI and then writes it to a HTML
-              file.
+              Team profile generator that takes employee information via CLI and
+              generates an HTML page displaying the teams summaries.
+              (JavaScript)
             </p>
             <a
               href="https://github.com/jessemarino/write_em_down"
@@ -96,9 +98,8 @@ export default function Portfolio() {
           <div className="card-body">
             <h5 className="card-title-port">CatWorx BadgeMaker</h5>
             <p className="card-text">
-              CatWorx badgeMaker is for users that need to create badges for
-              their employees. Users can enter employee info via CLI or update
-              the CSV file and generate them all at once.
+              Security badge generator that takes an employee's name, id, and
+              photo via CLI. (C#)
             </p>
             <a
               href="https://github.com/jessemarino/CatWorx.BadgeMaker"
@@ -113,7 +114,10 @@ export default function Portfolio() {
           <img src={takeNote} className="card-img-top-port" alt="calculator" />
           <div className="card-body">
             <h5 className="card-title-port">Take a Note</h5>
-            <p className="card-text">Try out this note taking app!</p>
+            <p className="card-text">
+              Note taking app that allows you to add, save, and delete notes.
+              (JavaScript)
+            </p>
             <a
               href="https://limitless-sea-73688.herokuapp.com/"
               className="btn btn-dark"
