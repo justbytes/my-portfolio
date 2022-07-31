@@ -8,7 +8,7 @@ import calander from "../../img/calander.png";
 import roleMaster from "../../img/rolemaster.png";
 import myTeam from "../../img/myteam.png";
 import pythonTechNews from "../../img/pythonTechNews.png";
-import badgeMaker from "../../img/badgemaker.png";
+import badgeMaker from "../../img/catWorx.png";
 
 export default function Portfolio() {
   return (

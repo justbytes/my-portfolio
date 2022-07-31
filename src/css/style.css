@@ -64,7 +64,7 @@ a.nav-link:hover {
   font-weight: bolder;
 }
 .aboutMeDescription {
-  background-color: #473d0028;
+  background-color: #473d0023;
   border-radius: 4px;
   padding: 20px;
   line-height: 2;
@@ -83,6 +83,15 @@ img.card-img-top-port {
   height: 200px;
   width: 100%;
   border-radius: 10px;
+}
+.portfolioSection {
+  justify-content: center;
+  margin-top: 20px;
+}
+.projectPicture {
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
 }
 .card-port {
   background-color: #473d0023 !important;
@@ -116,7 +125,7 @@ img.card-img-top-port {
 
 .contactInfo h4 {
   border-bottom: 1px solid;
-  width: 30%;
+  width: 150px;
   margin-bottom: 10px;
 }
 
