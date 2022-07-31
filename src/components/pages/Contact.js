@@ -1,62 +1,60 @@
 import React from "react";
-import { useAlert } from "react-alert";
+import profilePicture from "../../img/profilePicture.JPG";
 
 export default function Contact() {
-  const alert = useAlert();
   return (
     <>
       <div className="title"></div>
 
-      <form className="form">
-        <div className="row">
-          <div className="col">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="First name"
-            />
-          </div>
-          <div className="col">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Last name"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleFormControlInput1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleFormControlTextarea1">
-              Write a brief message
-            </label>
-            <textarea
-              className="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
+      <section
+        className="contactSection"
+        style={{ display: "flex", flexWrap: "wrap" }}
+      >
+        <div className="card mb-3 contactCard">
+          <div className="row no-gutters">
+            <div className="col-md-4">
+              <img
+                src={profilePicture}
+                className="profilePicture"
+                alt="profile-picture"
+              />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h2 className="card-title">Contact Information</h2>
+                <div className="contactInfo">
+                  <h4>Email</h4>
+                  <p>jmdotcoding@gmail.com</p>
+                </div>
+                <div className="contactInfo">
+                  <h4>LinkedIn</h4>
+                  <p>
+                    <a
+                      className="contactLink"
+                      href="https://www.linkedin.com/in/jesswritincode/"
+                    >
+                      LinkedIn Profile
+                    </a>
+                  </p>
+                  <p></p>
+                </div>
+                <div className="contactInfo">
+                  <h4>GitHub</h4>
+                  <p>
+                    <a
+                      className="contactLink"
+                      href="https://github.com/jessemarino"
+                    >
+                      Github Profile
+                    </a>
+                  </p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <button
-          onClick={(e) => {
-            e.preventDefault();
-
-            alert.show(
-              "This form currently doesn't work. If you would like to reach out please email me at jesswritincode@gmail.com. You can also find my contact info on my Github!"
-            );
-          }}
-          type="submit"
-          className="btn btn-dark"
-        >
-          Submit
-        </button>
-      </form>
+      </section>
     </>
   );
 }
