@@ -21,7 +21,9 @@ export default function Contact() {
             </div>
             <div className="col-md-8">
               <div className="card-body">
-                <h2 className="card-title">Contact Information</h2>
+                <h2 id="contactTitle" className="card-title-contact">
+                  Contact Information
+                </h2>
                 <div className="contactInfo">
                   <h4>Email</h4>
                   <p>jmdotcoding@gmail.com</p>

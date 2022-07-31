@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto+Slab&display=swap");
 * {
   margin: 0px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Nunito", sans-serif;
   font-size: large;
 }
 
@@ -39,9 +40,11 @@ ul.nav.nav-tabs.nav-justified {
   padding: 3px;
 }
 a.nav-link {
+  font-family: "Roboto Slab", serif;
   background-color: #dadbc7 !important;
   color: black;
   font-size: 24px;
+
   border-bottom: solid #bed5c6 !important;
   width: 99% !important;
   margin: 1px;
@@ -102,7 +105,8 @@ img.card-img-top-port {
   border-radius: 10px;
 }
 .card-title-port {
-  font-size: 36px;
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
   font-weight: bolder;
   border-bottom: solid rgba(255, 255, 255, 0.685);
 }
@@ -118,12 +122,15 @@ img.card-img-top-port {
   width: 100%;
   height: 100%;
 }
+#contactTitle {
+  font-family: "Roboto Slab", serif;
+}
 .contactCard {
   background-color: #473d0023 !important;
   width: 90%;
 }
-
 .contactInfo h4 {
+  font-family: "Roboto Slab", serif;
   border-bottom: 1px solid;
   width: 150px;
   margin-bottom: 10px;
@@ -149,6 +156,7 @@ li.list-group-item {
 .experiance h3 {
   border-bottom: solid #dadbc7;
   padding: 2px;
+  font-family: "Roboto Slab", serif;
 }
 .resumeLink {
   font-size: 24px;

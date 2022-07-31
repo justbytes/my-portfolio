@@ -1,10 +1,6 @@
 import React from "react";
-import doYouCode from "../../img/doYouCode.png";
-import textPic from "../../img/quicktext.png";
-import cryptoPic from "../../img/cryptopunx.png";
-import passwordGenerator from "../../img/passwordGenerator.png";
-import note from "../../img/note.png";
-import calander from "../../img/calander.png";
+import codeQuiz from "../../img/doYouCode.png";
+import takeNote from "../../img/note.png";
 import roleMaster from "../../img/rolemaster.png";
 import myTeam from "../../img/myteam.png";
 import pythonTechNews from "../../img/pythonTechNews.png";
@@ -15,9 +11,12 @@ export default function Portfolio() {
     <>
       <div className="title"></div>
 
-      <section style={{ display: "flex", flexWrap: "wrap" }}>
+      <section
+        className="portfolioSection"
+        style={{ display: "flex", flexWrap: "wrap" }}
+      >
         <div className="card-port" style={{ width: "18rem" }}>
-          <img src={doYouCode} className="card-img-top-port" alt="calculator" />
+          <img src={codeQuiz} className="card-img-top-port" alt="calculator" />
           <div className="card-body">
             <h5 className="card-title-port">Code Quiz</h5>
             <p className="card-text">
@@ -28,7 +27,7 @@ export default function Portfolio() {
               href="https://jessemarino.github.io/do-you-even-code/"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
@@ -48,7 +47,7 @@ export default function Portfolio() {
               href="https://github.com/jessemarino/role_master"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
@@ -69,7 +68,7 @@ export default function Portfolio() {
               href="https://news-feed-with-python.herokuapp.com/"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
@@ -87,7 +86,7 @@ export default function Portfolio() {
               href="https://github.com/jessemarino/write_em_down"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
@@ -105,13 +104,13 @@ export default function Portfolio() {
               href="https://github.com/jessemarino/CatWorx.BadgeMaker"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
 
         <div className="card-port" style={{ width: "18rem" }}>
-          <img src={note} className="card-img-top-port" alt="calculator" />
+          <img src={takeNote} className="card-img-top-port" alt="calculator" />
           <div className="card-body">
             <h5 className="card-title-port">Take a Note</h5>
             <p className="card-text">Try out this note taking app!</p>
@@ -119,7 +118,7 @@ export default function Portfolio() {
               href="https://limitless-sea-73688.herokuapp.com/"
               className="btn btn-dark"
             >
-              Check it out!
+              Check it out
             </a>
           </div>
         </div>
