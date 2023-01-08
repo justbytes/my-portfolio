@@ -29,4 +29,4 @@ npm start
 ```
 
 
-URL to webpage: https://jessemarino.github.io/my-portfolio/
+URL to webpage: https://jmsportfolio.com/
