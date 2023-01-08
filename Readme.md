@@ -1,24 +1,22 @@
 # My Portfolio
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
 
-My motivation for this project was to test my skills with React to create a portfolio. In this app you you can navigate through the About Me, Portfolio, Contact, and Resume tabs to see each page. Currently the contact form does not work and is acting as a place holder for the momment.
+Personal portfolio built using React.js.
+
 
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Questions](#questions)
 
 ### Installation
 
 To install necessary dependencies, run the following command:
 
 ```md
-npm init -y
-npm i
+npm install
 ```
 
 ### Usage
@@ -30,12 +28,5 @@ npm run build
 npm start
 ```
 
-### Questions
-
-If you have any questions please reach out via Github, my username is jessemarino.
-
-![screenshots](./src/img/d1.png)
-![screenshots](./src/img/d2.png)
-![screenshots](./src/img/d3.png)
 
 URL to webpage: https://jessemarino.github.io/my-portfolio/
